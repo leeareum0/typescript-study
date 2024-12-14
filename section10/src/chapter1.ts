@@ -4,8 +4,6 @@
  * -> 특정 객체 타입의 모든 프로퍼티를 선택적 프로퍼티로 바꿔주는 타입
  */
 
-import { title } from "process";
-
 interface Post {
   title: string;
   tags: string[];
