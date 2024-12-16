@@ -1,11 +1,8 @@
 import "./App.css";
 import { useEffect, useRef, useState } from "react";
 import Editor from "./components/Editor";
-
-interface Todo {
-  id: number;
-  content: string;
-}
+import { Todo } from "./types";
+import TodoItem from "./components/TodoItem";
 
 function App() {
   const [todos, setTodos] = useState<Todo[]>([]);
@@ -29,6 +26,11 @@ function App() {
     <div className="App">
       <h1>Todo</h1>
       <Editor onClickAdd={onClickAdd} />
+      <div>
+        {todos.map((todo) => (
+          <TodoItem key={todo.id} {...todo} />
+        ))}
+      </div>
     </div>
   );
 }
