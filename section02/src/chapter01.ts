@@ -1,17 +1,17 @@
-// Number
-let num1: Number = 123;
-let num2: Number = -123;
-let num3: Number = 0.123;
-let num4: Number = -0.123;
-let num5: Number = Infinity;
-let num6: Number = -Infinity;
-let num7: Number = NaN;
+// number
+let num1: number = 123;
+let num2: number = -123;
+let num3: number = 0.123;
+let num4: number = -0.123;
+let num5: number = Infinity;
+let num6: number = -Infinity;
+let num7: number = NaN;
 
-// String
-let str1: String = "hello";
-let str2: String = "hello";
-let str3: String = `hello`;
-let str4: String = `hello ${num1}`;
+// string
+let str1: string = "hello";
+let str2: string = "hello";
+let str3: string = `hello`;
+let str4: string = `hello ${num1}`;
 
 // boolean
 let bool1: boolean = true;
