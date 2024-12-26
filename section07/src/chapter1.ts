@@ -3,8 +3,6 @@
  * 첫 번째 사례
  */
 
-import { get } from "http";
-
 function swap<T, U>(a: T, b: U) {
   return [b, a];
 }
